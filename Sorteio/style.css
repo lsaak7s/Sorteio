@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -14,9 +17,8 @@ body {
 }
 
 .logo {
-    width: 300px;
+    width: 650px;
     height: auto;
-    margin-bottom: 20px;
 }
 
 section {
@@ -28,10 +30,12 @@ section {
 }
 
 .form-title {
+
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 20px;
     align-self: center;
+    font-weight: bold;
 }
 
 input::-webkit-inner-spin-button,
@@ -60,11 +64,12 @@ input::placeholder {
 }
 
 .result {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
+    color: rgb(111, 169, 35);
+    font-size: 30px;
     padding-top: 30px;
     text-align: center;
     align-self: center;
+    font-weight: bold;
 }
 
 .btn {
@@ -77,5 +82,4 @@ input::placeholder {
     cursor: pointer;
     font-size: 18px;
     margin-top: 40px;
-
 }
