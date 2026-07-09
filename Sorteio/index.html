@@ -10,22 +10,18 @@
 
 <body>
     <main>
-        <img src="/Sorteio/assets/bf9005e4ea371946d39627b79e08544906437e6f.png" alt="azul">
-        <h1>DevSorteio</h1>
+        <img class="logo" src="/assets/bf9005e4ea371946d39627b79e08544906437e6f.png" alt="azul">
     </main>
+
     <section>
-        <h2>Sortear um Número</h2>
+        <p class="form-title">Sorteio de Números</p>
         <form id="form">
-            <label for="min">Número Mínimo:</label>
-            <input type="number" id="min" name="min" required>
+            <input type="number" id="Min" class="min" name="min" required>
+            <input type="number" id="Max" class="max" name="max" required>
 
-            <label for="max">Número Máximo:</label>
-            <input type="number" id="max" name="max" required>
-
-            <button type="submit">Sortear</button>
         </form>
     </section>
-
+    <button id="submit-btn" class="btn" type="submit">Sortear</button>
 
 </body>
 <script src="script.js"></script>
