@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <reel rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <main>
+        <img class="logo" src="/assets/bf9005e4ea371946d39627b79e08544906437e6f.png" alt="azul">
+    </main>
+
+    <section>
+        <p class="form-title">Sorteio de Números</p>
+        <form id="form">
+            <input type="number" id="Min" class="min" name="min" required placeholder="Mínimo">
+            <input type="number" id="Max" class="max" name="max" required placeholder="Máximo">
+        </form>
+    </section>
+    <article>
+        <p id="result" class="result"></p>
+        <button id="submit-btn" class="btn" type="submit">Sortear</button>
+    </article>
 </body>
 <script src="script.js"></script>
+
 </html>
